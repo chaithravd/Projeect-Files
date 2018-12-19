@@ -1,0 +1,36 @@
+Pig Stack Trace
+---------------
+ERROR 1200: <line 5, column 47>  Syntax error, unexpected symbol at or near ','
+
+Failed to parse: <line 5, column 47>  Syntax error, unexpected symbol at or near ','
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:241)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:179)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1648)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1621)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:575)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1200: <line 7, column 0>  mismatched input 'kill' expecting INTO
+
+Failed to parse: <line 7, column 0>  mismatched input 'kill' expecting INTO
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:241)
+	at org.apache.pig.parser.QueryParserDriver.parse(QueryParserDriver.java:179)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1648)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1621)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:575)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+================================================================================
