@@ -1,0 +1,15 @@
+Pig Stack Trace
+---------------
+ERROR 1000: Error during parsing. File not found: /sample.pig
+
+org.apache.pig.tools.pigscript.parser.ParseException: File not found: /sample.pig
+	at org.apache.pig.tools.grunt.GruntParser.loadScript(GruntParser.java:547)
+	at org.apache.pig.tools.grunt.GruntParser.processScript(GruntParser.java:503)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.Script(PigScriptParser.java:1014)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:550)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+================================================================================
