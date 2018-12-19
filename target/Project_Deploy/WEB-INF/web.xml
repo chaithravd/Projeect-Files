@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>Demoservlet</servlet-name>
+    <servlet-class>Demoservlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Formget</servlet-name>
+    <servlet-class>Formget</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ForCookies</servlet-name>
+    <servlet-class>ForCookies</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Sdatabase</servlet-name>
+    <servlet-class>Sdatabase</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Server_Velocity</servlet-name>
+    <servlet-class>Server_Velocity</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Demoservlet</servlet-name>
+    <url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Formget</servlet-name>
+    <url-pattern>/Formget</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ForCookies</servlet-name>
+    <url-pattern>/cookies</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Sdatabase</servlet-name>
+    <url-pattern>/database</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Server_Velocity</servlet-name>
+    <url-pattern>/*.vm</url-pattern>
+  </servlet-mapping>
+
+</web-app>
